@@ -3,3 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    display: flex;
+}
+header img {
+    height: 15rem;
+    width: 15rem;
+}
+
+header div {
+    width: 100%;
+    text-align: center;
+}
+
+header p {
+    margin: 1rem;
+    padding: 1rem;
+    text-align: justify;
+    font-weight: 500;
+    font-style: normal;
+    font-size: x-large;
+}
+
+
