@@ -13,6 +13,7 @@
 </head>
 <body>
     <main>
+                                  <!-- HEADER -->
         <nav class="navbar navbar-expand-lg bg-info">
             <div class="container-fluid">
               <a class="navbar-brand" href="#"><h1>Curriculum Vitae</h1></a>
@@ -21,9 +22,9 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav ms-auto">
-                  <a class="nav-link active" aria-current="page" href="#">Educación</a>
+                  <a class="nav-link active" aria-current="page" href="#portafolio">Portafolio</a>
                   <a class="nav-link" href="#">Experiencia</a>
-                  <a class="nav-link" href="#portafolio">Portafolio</a>
+                  <a class="nav-link" href="#">Educación</a>
                 </div>
               </div>
             </div>
@@ -36,8 +37,8 @@
                </div>                    
         </header>
 
-       <!--  PRIMERA SECCIÓN EDUCACIÓN y EXPERIENCIA LABORAL -->
-
+                   <!--  PRIMERA SECCIÓN EDUCACIÓN y EXPERIENCIA LABORAL -->
+<hr class="hr1">
         <section class="">
           <div class="row">
             <article class="col">
@@ -59,15 +60,37 @@
             </ul>
           </article>
           </div>
-          <hr>
+          <hr class="hr2">
         </section> 
         
         <!-- SEGUNDA SECCIÓN PORTAFOLIO -->
        
-        <section id="portafolio" >
+        <section id="portafolio" class=" container-fluid portafolio bg-info-subtle fila" >
           <h2>Portafolio</h2>
-        </section>
-        
+          <div class="row" >
+            <article class="card col ms-4" style="width: 20rem;">
+             <img src="./assets/img/iguana-page.png" class="card-img-top" alt="imagen de iguana page creada por santiago">
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item"> <a href="." target="_blank">Landing Iguana  Page</a>
+                </li>
+              </ul>
+           </article>
+          <article class="card col ms-4" style="width: 20rem;">
+            <img src="./assets/img/cuppon-page.png" class="card-img-top" alt="imagen de iguana page creada por santiago">
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"> <a href="." target="_blank">Bootstrap "Cuppon"</a></li>
+
+            </ul>
+          </article>
+           <article class="card col ms-4 me-4" style="width: 20rem;">
+             <img src="./assets/img/página-vlog.png" class="card-img-top" alt="imagen de iguana page creada por santiago">
+             <ul class="list-group list-group-flush">
+                <li class="list-group-item"> <a href="." target="_blank">Práctica GitHub</a>
+                </li>
+             </ul>
+           </article>
+          </div>
+        <hr>
     </main>
     
 

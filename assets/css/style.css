@@ -7,9 +7,9 @@
 body {
     font-family: "Raleway", sans-serif;
     text-align: justify;
-    font-weight: 300;
+    font-weight: 350;
     font-style: normal;
-    font-size: x-large;
+    font-size:medium;
 }
 
 header {
@@ -33,9 +33,29 @@ header div {
     font-style: normal;
     font-size: x-large;
 }
- 
-hr {
-   border-color:  #0d6efd;
+hr{
+    border-color:  #0d6efd;
     background-color: #0d6efd;
     height: 3px;
+    width: 100%;
 }
+ 
+.hr1{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.hr2 {
+    margin-bottom: auto;
+    margin-top: 7%;
+} 
+
+ .portafolio {
+    text-align: center;
+ }
+
+ a {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: norma
+ }
