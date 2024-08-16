@@ -5,16 +5,20 @@
 }
 
 body {
-    font-family: "Raleway", sans-serif;
-    text-align: justify;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
     font-weight: 350;
-    font-style: normal;
-    font-size:medium;
+    font-style:oblique;
+    font-size: normal;
 }
+ h1 h2{
+    font-family: "Montserrat", sans-serif;
+ }
 
 header {
     display: flex;
 }
+
 header img {
     height: 15rem;
     width: 15rem;
@@ -29,13 +33,13 @@ header div {
     margin: 1rem;
     padding: 1rem;
     text-align: justify;
-    font-weight: 500;
+    font-weight: 350;
     font-style: normal;
     font-size: x-large;
 }
 hr{
-    border-color:  #0d6efd;
-    background-color: #0d6efd;
+    border-color: #212529;
+    background-color: #212529;
     height: 3px;
     width: 100%;
 }
@@ -50,12 +54,26 @@ hr{
     margin-top: 7%;
 } 
 
- .portafolio {
+.hr3 {
+    margin: auto;
+}
+
+.portafolio {
     text-align: center;
  }
 
  a {
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: norma
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400 ;
+    font-style: normal;
  }
+
+ footer{
+    margin: auto;
+    color: white;
+    text-align: center;
+    padding: 2rem;
+    font-size: large;
+ }
+
+
