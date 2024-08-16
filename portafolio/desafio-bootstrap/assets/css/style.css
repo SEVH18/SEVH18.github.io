@@ -1,0 +1,78 @@
+.background-color-green{
+    background-color: #28A745;
+}
+
+.img{
+    height: 4rem;
+}
+
+.text-color{
+    color: white;
+}
+
+.roboto-light-nav {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+
+  .roboto-regular-nav {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .roboto-medium-nav {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .margin-galeria{
+    margin-left: 4%;
+  }
+
+  input {
+    width: 100%;
+  }
+
+  .formulario{
+    margin-left: 9%;
+    margin-right: 5%;
+  }
+
+  .logo-footer {
+    height: 2rem;
+    margin-left: 45%;
+ 
+  }
+
+  .titulos-card {
+    color: #212529;
+    font-family: "Roboto", sans-serif;
+    font-weight: 1,25rem;
+    font-style: normal;
+  }
+
+  .descripcion-card {
+    color: #707070;
+    font-family: "Roboto", sans-serif;
+    font-weight: 1rem;
+    font-style: normal;
+
+  }
+
+  .ubi-card{
+    color: #707070;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+
+  }
+
+  .roboto-medium-green {
+    color: #28A745;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 1.2rem;
+  }
